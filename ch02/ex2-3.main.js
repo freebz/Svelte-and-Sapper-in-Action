@@ -1,0 +1,12 @@
+// Listing 2.3 The src/main.js file
+
+import App from './App.svelte';
+
+const app = new App({
+  target: document.body,
+  props: {
+    name: 'world'
+  }
+});
+
+export default app;
