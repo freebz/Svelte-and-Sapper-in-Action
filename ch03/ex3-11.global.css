@@ -1,0 +1,6 @@
+/* Listing 3.11 Change to body styling in public/global.css */
+
+body {
+  padding: 0; /* was 8px */
+  ... keep other properties ...
+}

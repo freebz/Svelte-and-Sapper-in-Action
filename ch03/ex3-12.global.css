@@ -1,0 +1,7 @@
+/* Listing 3.12 Styling of invalid inputs in public/global.css */
+
+/* This prevents Firefox from displaying a red box shadow
+  around required inputs that have no value. */
+input:invalid {
+  box-shadow: none;
+}
