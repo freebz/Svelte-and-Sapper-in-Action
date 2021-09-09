@@ -1,0 +1,47 @@
+/* Listing 4.11 Global CSS defined in public/global.css */
+
+body {
+  font-family: sans-serif;
+  height: 100vh;
+  margin: 0;
+  padding: 
+}
+
+button:not(:disabled),
+input:not(:disabled) {
+  cursor: pointer;
+}
+
+button:disabled {
+  color: lightgray;
+}
+
+button.icon {
+  background-color: transparent;
+  border: none;
+  margin-bottom: 0;
+}
+
+input:disabled {
+  color: #ccc;
+}
+
+label {
+  display: inline-block;
+}
+
+input,
+button,
+select,
+textarea {
+  --padding: 10px;
+
+  border-radius: var(--padding);
+  border: none;
+  box-sizing: border-box;
+  color: gray;
+  font-family: inherit;
+  font-size: inherit;
+  margin: 0;
+  padding: var(--padding);
+}
