@@ -1,0 +1,9 @@
+/* Listing 20.6 CSS for the Dog component in src/Dog.css */
+
+h1 {
+  margin-bottom: 0;
+}
+
+.breed {
+  color: green;
+}
