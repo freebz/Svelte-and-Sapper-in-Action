@@ -1,0 +1,10 @@
+// Listing E.1 A .prettierrc file
+
+{
+  "arrowParens": "avoid",
+  "bracketSpacing": false,
+  "singleQuote": true,
+  "svelteSortOrder": "scripts-markup-styles",
+  "trailingComma": "none"
+}
+
